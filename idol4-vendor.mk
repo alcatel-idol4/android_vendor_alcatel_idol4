@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
 	vendor/alcatel/idol4/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+	vendor/alcatel/idol4/proprietary/lib/libtsvideoprocess.so:system/lib/libtsvideoprocess.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libSampleAuthJNI.so:system/vendor/lib64/libSampleAuthJNI.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
