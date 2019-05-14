@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib64/libOmxEvrcEnc.so:system/lib64/libOmxEvrcEnc.so \
-	vendor/alcatel/idol4/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
 	vendor/alcatel/idol4/proprietary/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
 	vendor/alcatel/idol4/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
 	vendor/alcatel/idol4/proprietary/lib64/libOmxVenc.so:system/lib64/libOmxVenc.so \
@@ -25,7 +24,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib64/libOmxVdec.so:system/lib64/libOmxVdec.so \
 	vendor/alcatel/idol4/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
 	vendor/alcatel/idol4/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
-	vendor/alcatel/idol4/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
 	vendor/alcatel/idol4/proprietary/lib64/libril.so:system/lib64/libril.so \
 	vendor/alcatel/idol4/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
 	vendor/alcatel/idol4/proprietary/lib64/libOmxCore.so:system/lib64/libOmxCore.so \
@@ -34,10 +32,8 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
 	vendor/alcatel/idol4/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
 	vendor/alcatel/idol4/proprietary/lib64/libOmxAacEnc.so:system/lib64/libOmxAacEnc.so \
-	vendor/alcatel/idol4/proprietary/lib64/libqdutils.so:system/lib64/libqdutils.so \
 	vendor/alcatel/idol4/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
 	vendor/alcatel/idol4/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-	vendor/alcatel/idol4/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
 	vendor/alcatel/idol4/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
 	vendor/alcatel/idol4/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
 	vendor/alcatel/idol4/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
@@ -59,6 +55,20 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
 	vendor/alcatel/idol4/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
 	vendor/alcatel/idol4/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn\
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
+	vendor/alcatel/idol4/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
 	vendor/alcatel/idol4/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
 	vendor/alcatel/idol4/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/alcatel/idol4/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
@@ -177,13 +187,11 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 	vendor/alcatel/idol4/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/alcatel/idol4/proprietary/bin/irsc_util:system/bin/irsc_util \
-	vendor/alcatel/idol4/proprietary/bin/audiod:system/bin/audiod \
 	vendor/alcatel/idol4/proprietary/bin/pm-service:system/bin/pm-service \
 	vendor/alcatel/idol4/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/alcatel/idol4/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 	vendor/alcatel/idol4/proprietary/bin/msm-vidc-test:system/bin/msm-vidc-test \
 	vendor/alcatel/idol4/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-	vendor/alcatel/idol4/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
 	vendor/alcatel/idol4/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
 	vendor/alcatel/idol4/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
 	vendor/alcatel/idol4/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
@@ -196,7 +204,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
 	vendor/alcatel/idol4/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
 	vendor/alcatel/idol4/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-	vendor/alcatel/idol4/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
 	vendor/alcatel/idol4/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
 	vendor/alcatel/idol4/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/alcatel/idol4/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
@@ -207,10 +214,8 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
 	vendor/alcatel/idol4/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-	vendor/alcatel/idol4/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
 	vendor/alcatel/idol4/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-	vendor/alcatel/idol4/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
 	vendor/alcatel/idol4/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libSampleAuthJNI.so:system/vendor/lib64/libSampleAuthJNI.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
@@ -318,7 +323,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libmmparser_lite.so:system/vendor/lib64/libmmparser_lite.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
@@ -446,7 +450,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libSecureSampleAuthClient.so:system/vendor/lib64/libSecureSampleAuthClient.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
@@ -482,13 +485,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/etc/maxx_conf.ini:system/vendor/etc/maxx_conf.ini \
 	vendor/alcatel/idol4/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
 	vendor/alcatel/idol4/proprietary/vendor/etc/default.mps:system/vendor/etc/default.mps \
-	vendor/alcatel/idol4/proprietary/vendor/app/SVIService/SVIService.apk:system/vendor/app/SVIService/SVIService.apk \
-	vendor/alcatel/idol4/proprietary/vendor/app/SecProtect/SecProtect.apk:system/vendor/app/SecProtect/SecProtect.apk \
-	vendor/alcatel/idol4/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
-	vendor/alcatel/idol4/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
-	vendor/alcatel/idol4/proprietary/vendor/app/WfdService/WfdService.apk:system/vendor/app/WfdService/WfdService.apk \
-	vendor/alcatel/idol4/proprietary/vendor/app/CABLService/CABLService.apk:system/vendor/app/CABLService/CABLService.apk \
-	vendor/alcatel/idol4/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk \
 	vendor/alcatel/idol4/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
 	vendor/alcatel/idol4/proprietary/vendor/qcril.db:system/vendor/qcril.db \
 	vendor/alcatel/idol4/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
@@ -891,7 +887,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4_default_video.so:system/vendor/lib/libchromatix_ov8858_idol4_default_video.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmmcamera_s5k4h8_idol4.so:system/vendor/lib/libmmcamera_s5k4h8_idol4.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4_hfr_90.so:system/vendor/lib/libchromatix_ov8858_idol4_hfr_90.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8858_idol4_cpp_hfr_60.so \
@@ -1395,7 +1390,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4s_cpp_preview.so:system/vendor/lib/libchromatix_ov8858_idol4s_cpp_preview.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libactuator_lc898217xc_idol4s.so:system/vendor/lib/libactuator_lc898217xc_idol4s.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:system/vendor/lib/libchromatix_s5k3m2xx_common.so \
