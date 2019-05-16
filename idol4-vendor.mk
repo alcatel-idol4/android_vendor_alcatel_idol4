@@ -286,8 +286,8 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib64/libaudioparser.so:system/vendor/lib64/libaudioparser.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib/libaudioparser.so:system/vendor/lib/libaudioparser.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libstlport_sta.so:system/vendor/lib64/libstlport_sta.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
