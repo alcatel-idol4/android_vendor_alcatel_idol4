@@ -191,9 +191,11 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/alcatel/idol4/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 	vendor/alcatel/idol4/proprietary/bin/msm-vidc-test:system/bin/msm-vidc-test \
+	vendor/alcatel/idol4/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
+	vendor/alcatel/idol4/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
 	vendor/alcatel/idol4/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
-	vendor/alcatel/idol4/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+	vendor/alcatel/idol4/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
 	vendor/alcatel/idol4/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/alcatel/idol4/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/alcatel/idol4/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -218,6 +220,11 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
 	vendor/alcatel/idol4/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/alcatel/idol4/proprietary/lib/libtsvideoprocess.so:system/lib/libtsvideoprocess.so \
+	vendor/alcatel/idol4/proprietary/lib/libVDSuperPhotoAPI.so:system/lib/libVDSuperPhotoAPI.so \
+	vendor/alcatel/idol4/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
+	vendor/alcatel/idol4/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
+	vendor/alcatel/idol4/proprietary/lib/libVDBeautyShotAPI1.so:system/lib/libVDBeautyShotAPI1.so \
+	vendor/alcatel/idol4/proprietary/lib/libVDBeautyShotAPI.so:system/lib/libVDBeautyShotAPI.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libSampleAuthJNI.so:system/vendor/lib64/libSampleAuthJNI.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
@@ -279,6 +286,8 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib64/libaudioparser.so:system/vendor/lib64/libaudioparser.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib/libaudioparser.so:system/vendor/lib/libaudioparser.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libstlport_sta.so:system/vendor/lib64/libstlport_sta.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
@@ -524,6 +533,8 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4_snapshot.so:system/vendor/lib/libchromatix_ov8858_idol4_snapshot.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_imx298_idol4s_zsl_preview.so:system/vendor/lib/libchromatix_imx298_idol4s_zsl_preview.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib/hw/audio.primary.msm8952.so:system/vendor/lib/hw/audio.primary.msm8952.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib64/hw/audio.primary.msm8952.so:system/vendor/lib64/hw/audio.primary.msm8952.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/activity_recognition.msm8952.so:system/vendor/lib/hw/activity_recognition.msm8952.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/vulkan.msm8952.so:system/vendor/lib/hw/vulkan.msm8952.so \
