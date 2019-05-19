@@ -408,7 +408,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:system/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
@@ -533,8 +532,8 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4_snapshot.so:system/vendor/lib/libchromatix_ov8858_idol4_snapshot.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_imx298_idol4s_zsl_preview.so:system/vendor/lib/libchromatix_imx298_idol4s_zsl_preview.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib/hw/audio.primary.msm8952.so:system/vendor/lib/hw/audio.primary.msm8952.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib64/hw/audio.primary.msm8952.so:system/vendor/lib64/hw/audio.primary.msm8952.so \
+	vendor/alcatel/idol4/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
+	vendor/alcatel/idol4/proprietary/lib64/hw/audio.primary.msm8952.so:system/lib64/hw/audio.primary.msm8952.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/activity_recognition.msm8952.so:system/vendor/lib/hw/activity_recognition.msm8952.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/vulkan.msm8952.so:system/vendor/lib/hw/vulkan.msm8952.so \
@@ -1185,7 +1184,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmmcamera_ov4688_idol4s.so:system/vendor/lib/libmmcamera_ov4688_idol4s.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4s_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8858_idol4s_cpp_liveshot.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libchromatix_ov8858_idol4_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8858_idol4_cpp_hfr_90.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
