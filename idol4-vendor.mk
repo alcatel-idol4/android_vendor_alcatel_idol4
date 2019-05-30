@@ -214,11 +214,7 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
 	vendor/alcatel/idol4/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
-	vendor/alcatel/idol4/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
 	vendor/alcatel/idol4/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/alcatel/idol4/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-	vendor/alcatel/idol4/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-	vendor/alcatel/idol4/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxSwVencHevc.so:system/lib/libOmxSwVencHevc.so \
 	vendor/alcatel/idol4/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
