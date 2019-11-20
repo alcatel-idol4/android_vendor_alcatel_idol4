@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libtfa9890.so:system/vendor/lib/libtfa9890.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib64/libtfa9890.so:system/vendor/lib64/libtfa9890.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
