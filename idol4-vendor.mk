@@ -180,6 +180,8 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libOmxEvrcEnc.so:system/vendor/lib/libOmxEvrcEnc.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/nfc_nci.pn54x.default.so:system/vendor/lib/hw/nfc_nci.pn54x.default.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib64/hw/sensors.msm8952.so:system/vendor/lib64/hw/sensors.msm8952.so \
+	vendor/alcatel/idol4/proprietary/vendor/lib/hw/sensors.msm8952.so:system/vendor/lib/hw/sensors.msm8952.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libOmxVenc.so:system/vendor/lib/libOmxVenc.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libOmxSwVencHevc.so:system/vendor/lib/libOmxSwVencHevc.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libOmxAmrEnc.so:system/vendor/lib/libOmxAmrEnc.so \
