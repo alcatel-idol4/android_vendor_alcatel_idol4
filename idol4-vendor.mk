@@ -162,7 +162,6 @@ PRODUCT_COPY_FILES += \
 	vendor/alcatel/idol4/proprietary/vendor/lib/hw/sensors.msm8952.so:system/vendor/lib/hw/sensors.msm8952.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libOmxSwVencHevc.so:system/vendor/lib/libOmxSwVencHevc.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
-	vendor/alcatel/idol4/proprietary/vendor/lib/libmm-omxcore.so:system/vendor/lib/libmm-omxcore.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/sensors.native.so:system/vendor/lib/sensors.native.so \
 	vendor/alcatel/idol4/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
