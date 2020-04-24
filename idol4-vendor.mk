@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/idol4/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/tcl/idol4/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/tcl/idol4/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/tcl/idol4/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/tcl/idol4/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/tcl/idol4/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/tcl/idol4/proprietary/lib/libtsvideoprocess.so:system/lib/libtsvideoprocess.so \
@@ -84,10 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/idol4/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/tcl/idol4/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/tcl/idol4/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/tcl/idol4/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/tcl/idol4/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
     vendor/tcl/idol4/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
-    vendor/tcl/idol4/proprietary/lib64/sensors.calibrate.so:system/lib64/sensors.calibrate.so \
     vendor/tcl/idol4/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/tcl/idol4/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/tcl/idol4/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -793,11 +790,9 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/idol4/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/tcl/idol4/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/tcl/idol4/proprietary/vendor/lib/mediadrm/libprmediadrmdecrypt.so:system/vendor/lib/mediadrm/libprmediadrmdecrypt.so \
     vendor/tcl/idol4/proprietary/vendor/lib/mediadrm/libprmediadrmplugin.so:system/vendor/lib/mediadrm/libprmediadrmplugin.so \
     vendor/tcl/idol4/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/tcl/idol4/proprietary/vendor/lib/sensors.calibrate.so:system/vendor/lib/sensors.calibrate.so \
     vendor/tcl/idol4/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -810,8 +805,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/idol4/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
-    vendor/tcl/idol4/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
-    vendor/tcl/idol4/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
@@ -897,7 +890,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/idol4/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/tcl/idol4/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/mediadrm/libprmediadrmplugin.so:system/vendor/lib64/mediadrm/libprmediadrmplugin.so \
     vendor/tcl/idol4/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/tcl/idol4/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
