@@ -93,6 +93,14 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/idol4/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/tcl/idol4/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/tcl/idol4/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/tcl/idol4/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
+    vendor/tcl/idol4/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
+    vendor/tcl/idol4/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
+    vendor/tcl/idol4/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
+    vendor/tcl/idol4/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/tcl/idol4/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/tcl/idol4/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
+    vendor/tcl/idol4/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/tcl/idol4/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/tcl/idol4/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/tcl/idol4/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -203,7 +211,13 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/idol4/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
+    vendor/tcl/idol4/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/tcl/idol4/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
+    vendor/tcl/idol4/proprietary/vendor/lib/libq3dtools_adreno.so:system/vendor/lib/libq3dtools_adreno.so \
+    vendor/tcl/idol4/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/tcl/idol4/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/tcl/idol4/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/tcl/idol4/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
